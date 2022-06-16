@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "맑은고딕";
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.backgroundbox{
+  width: 100%;
+  height: 1827px;
+  background: url(image/background-image3.jpg) #fdfbf2 center no-repeat;
+  margin: auto;
+  position: relative;
+  display: flex;
+}
+.backgroundbox2{
+  width: 1200px;
+  height:  1827px;
+  position:absolute;
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.backgroundbox2 > h1{
+  font-size: 24px;
+  font-weight: bold;
+  color: #766a45;
+  position: absolute;
+  margin: auto;
+  top:25px;
+  left: 110px;
+}
+.backgroundbox2 > h2{
+  font-size: 24px;
+  font-weight: bold;
+  color: #766a45;
+  position: absolute;
+  margin: auto;
+  top:175px;
+  left: 110px;
+}
+.dressMode {
+  width: 1200px;
+  height: 1827px;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 286px;
+}
+.backgroundbox2>.dressMode img {
+  width: 100%;
+  border: 5px solid #f2e6cc;
+}
+.dressMode> li{
+  width: 214px;
+  height: 333px;
+  float: left;
+  margin-bottom: 120px;
+}
+.dressMode{
+  width: 990px;
+  display: flex;
+  justify-content: space-between;
+}
+.dressMode b{
+  color: #766a45;
+  font-weight: bold;
+  font-size: 16px;
+  margin: auto;
+  text-align: center;
+  float: left;
+  padding: 30px 60px;
+}
+
+
+
+header {
+  width: 100%;
+  height: 98px;
+  margin: auto;
+  background-color: #9f9c8b;
+  
+}
+.box {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.logo {
+  width: 78px;
+  height: 86px;
+  left: 360px;
+}
+.menu {
+  width: 768px;
+  height: 98px;
+  margin: auto;
+  display: flex;
+}
+.menu>li {
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  top: 42px;
+  padding-left: 60px;
+  align-items: center;
+}
+.sns {
+  width: 241px;
+  height: 98px;
+  margin: auto;
+  display: flex;
+}
+.sns>li {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+} 
+
+
+.wrap{
+  width: 335px;
+  height: 180px;
+  margin: auto;
+  padding-top: 1700px;
+  justify-content: center;
+}
+.pagination {
+  display: inline-block;
+  position: absolute;
+}
+
+.pagination>a {
+  float: left;
+  padding: 8px 16px;
+  transition: all 0.3s;
+}
+.pagination > .active{
+  background-color: #dddacb;
+  color: #fff;
+}
+.pagination > a:hover:not(.active){
+  background-color: #ddd;
+}
+
+footer {
+  width: 100%;
+  height: 98px;
+  margin: auto;
+  background-color: #9f9c8b;
+}
+.box1 {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.box1 >.logo {
+  width: 78px;
+  height: 86px;
+  position: absolute;
+  left: 0px;
+}
+.footertxt{
+  width: 876px;
+  height: 98px;
+  color: #fff;
+  margin: auto;
+  line-height: 20px;
+}
+.footertxt > h3{
+  font-size: 12px;
+  left: 145px;
+  top: 21px;
+  position: absolute;
+  display: flex;
+}
+.footertxt > h4{
+  font-size: 12px;
+  left: 556px;
+  top: 21px;
+  position: absolute;
+  display: flex;
+}
+.footertxt > h5{
+  font-size: 12px;
+  left: 881px;
+  top: 21px;
+  position: absolute;
+  display: flex;
+}
+.box1 > p{
+  margin: auto;
+  position: absolute;
+  align-items: center;
+  font-family: "돋움";
+  color: #fff;
+  font-size: 14px;
+  top: 77px;
+  left: 444px;
+}
+
+
+
+

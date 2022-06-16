@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "맑은고딕";
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+
+
+.backgroundbox{
+  width: 100%;
+  height: 1827px;
+  background: url(image/background-image4.jpg) #fdfbf2 center no-repeat;
+  margin: auto;
+  position: relative;
+  display: flex;
+}
+.backgroundbox2 > h1{
+  font-size: 24px;
+  font-weight: bold;
+  color: #766a45;
+  position: absolute;
+  margin: auto;
+  top:25px;
+  left: 110px;
+}
+.txts> h1{
+ float: left;
+ position: absolute;
+ display: flex;
+ color: #766a45;
+ font-size: 30px;
+ font-weight: bold;
+ top: 181px;
+ left: 119px;
+}
+.rhdwl > h1{
+  float: left;
+  position: absolute;
+  display: flex;
+  color: #766a45;
+  font-size: 30px;
+  font-weight: bold;
+  top: 1150px;
+  left: 119px;
+}
+.backgroundbox2{
+  width: 1200px;
+  height:  1827px;
+  position:absolute;
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.box3{
+  width: 471px;
+  height: 321px;
+  position: relative;
+  display: flex;
+  top: 311px;
+  left: 93px;
+  background: url(image/Event_1.jpg) center no-repeat;
+}
+.box31{
+  width: 471px;
+  height: 42px;
+  background-color: #fff;
+  border: 2px solid #aa9e99;
+  position: absolute;
+  top:  320px;
+}
+.box31> h1{
+  color: #111;
+  font-size: 20px;
+  padding: 5px 75px;
+}
+.box31> h1 > b{
+  color: #808053;
+}
+.box4{
+  width: 471px;
+  height: 321px;
+  position: absolute;
+  display: flex;
+  top: 311px;
+  left: 611px;
+  background: url(image/Event_2.jpg) center no-repeat;
+}
+.box41> h1{
+  color: #111;
+  font-size: 20px;
+  padding: 5px 65px;
+}
+.box41{
+  width: 471px;
+  height: 42px;
+  background-color: #fff;
+  border: 2px solid #aa9e99;
+  position: absolute;
+  top:  320px;
+}
+.box41> h1 > b{
+  color: #808053;
+}
+.box5{
+  width: 471px;
+  height: 321px;
+  position: absolute;
+  display: flex;
+  top: 691px;
+  left: 93px;
+  background: url(image/Event_3.jpg) center no-repeat;
+}
+.box51{
+  width: 471px;
+  height: 42px;
+  background-color: #fff;
+  border: 2px solid #aa9e99;
+  position: absolute;
+  top:  320px;
+}
+.box51> h1{
+  color: #808053;
+  font-size: 20px;
+  padding: 5px 80px;
+}
+
+
+
+header {
+  width: 100%;
+  height: 98px;
+  margin: auto;
+  background-color: #9f9c8b;
+}
+.box {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.logo {
+  width: 78px;
+  height: 86px;
+  left: 360px;
+}
+.menu {
+  width: 768px;
+  height: 98px;
+  margin: auto;
+  display: flex;
+}
+.menu>li {
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  top: 42px;
+  padding-left: 60px;
+  align-items: center;
+}
+.sns {
+  width: 241px;
+  height: 98px;
+  margin: auto;
+  display: flex;
+}
+.sns>li {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+} 
+
+
+
+section{
+  width:940px;
+  height: 365px;
+  margin: auto;
+  position: absolute;
+  display: flex;
+  border-top: 1px solid #766a45;
+  top: 1248px;
+  left: 119px;
+}
+section td:nth-child(1){
+  padding-left: 10px;
+  border-bottom: 1px dotted #766a45;
+  text-align: center;
+}
+section td:nth-child(2){
+  padding-left: 40px;
+  border-bottom: 1px dotted #766a45;
+}
+section td:nth-child(3){
+  padding-left: 400px;
+  border-bottom: 1px dotted #766a45;
+}
+
+
+
+.wrap{
+  width: 335px;
+  height: 180px;
+  margin: auto;
+  position: absolute;
+  padding-top: 1700px;
+  left: 450px;
+  justify-content: center;
+}
+.pagination {
+  display: inline-block;
+  position: absolute;
+}
+
+.pagination>a {
+  float: left;
+  padding: 8px 16px;
+  transition: all 0.3s;
+}
+.pagination > .active{
+  background-color: #dddacb;
+  color: #fff;
+}
+.pagination > a:hover:not(.active){
+  background-color: #ddd;
+}
+
+
+
+footer {
+  width: 100%;
+  height: 98px;
+  margin: auto;
+  background-color: #9f9c8b;
+}
+.box1 {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.box1 >.logo {
+  width: 78px;
+  height: 86px;
+  position: absolute;
+  left: 0px;
+}
+.footertxt{
+  width: 876px;
+  height: 98px;
+  color: #fff;
+  margin: auto;
+  line-height: 20px;
+}
+.footertxt > h3{
+  font-size: 12px;
+  left: 145px;
+  top: 21px;
+  position: absolute;
+  display: flex;
+}
+.footertxt > h4{
+  font-size: 12px;
+  left: 556px;
+  top: 21px;
+  position: absolute;
+  display: flex;
+}
+.footertxt > h5{
+  font-size: 12px;
+  left: 881px;
+  top: 21px;
+  position: absolute;
+  display: flex;
+}
+.box1 > p{
+  margin: auto;
+  position: absolute;
+  align-items: center;
+  font-family: "돋움";
+  color: #fff;
+  font-size: 14px;
+  top: 77px;
+  left: 444px;
+}
+
+
