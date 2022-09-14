@@ -22,7 +22,7 @@ body {
 .backgroundbox{
   width: 100%;
   height: 1827px;
-  background: url(image/background-image3.jpg) #fdfbf2 center no-repeat;
+  background: #fdfbf2 center no-repeat;
   margin: auto;
   position: relative;
   display: flex;
